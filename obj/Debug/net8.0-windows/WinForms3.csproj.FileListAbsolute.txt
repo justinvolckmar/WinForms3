@@ -1,0 +1,16 @@
+C:\Users\JV\Desktop\cSHARP\WinForms3\bin\Debug\net8.0-windows\WinForms3.exe
+C:\Users\JV\Desktop\cSHARP\WinForms3\bin\Debug\net8.0-windows\WinForms3.deps.json
+C:\Users\JV\Desktop\cSHARP\WinForms3\bin\Debug\net8.0-windows\WinForms3.runtimeconfig.json
+C:\Users\JV\Desktop\cSHARP\WinForms3\bin\Debug\net8.0-windows\WinForms3.dll
+C:\Users\JV\Desktop\cSHARP\WinForms3\bin\Debug\net8.0-windows\WinForms3.pdb
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.Form1.resources
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.csproj.GenerateResource.cache
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.AssemblyInfoInputs.cache
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.AssemblyInfo.cs
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.csproj.CoreCompileInputs.cache
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.dll
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\refint\WinForms3.dll
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.pdb
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.genruntimeconfig.cache
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\ref\WinForms3.dll
