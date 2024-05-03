@@ -14,3 +14,4 @@ C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\refint\WinForms3.d
 C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.pdb
 C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.genruntimeconfig.cache
 C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\ref\WinForms3.dll
+C:\Users\JV\Desktop\cSHARP\WinForms3\obj\Debug\net8.0-windows\WinForms3.sourcelink.json

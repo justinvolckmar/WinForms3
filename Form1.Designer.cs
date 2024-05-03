@@ -37,6 +37,7 @@
                 pictures[i].Image = Image.FromFile("../../../match.png");
                 pictures[i].SizeMode = PictureBoxSizeMode.Zoom;
 
+                //grid
                 j++;
                 if (j >= 4)
                 {
@@ -53,6 +54,7 @@
             Random rnd = new Random();
 
             images = new List<String>();
+            flipped = new List<bool>();
 
             for (i = 0; i < numPics; i++)
             {
@@ -65,6 +67,7 @@
                 {
                     pathCount[path]++;
                     images.Add(paths[path]);
+                    flipped.Add(false);
                 }
             }
 
@@ -78,5 +81,6 @@
 
         private PictureBox[] pictures;
         private List<String> images;
+        private List<bool> flipped; //handles the flip state to stop double clicking
     }
 }
