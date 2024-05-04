@@ -30,6 +30,12 @@ namespace WinForms3
                         pictures[id].BackColor = Color.White;
                         flipped[id] = true;
                         solved++;
+                        //use time in seconds to create a score
+                        int timeSeconds = startTime.Elapsed.Seconds + startTime.Elapsed.Minutes * 60;
+                        int scoreGained = 300 / timeSeconds + 700 - timeSeconds;
+                        //sum the score for all matches
+                        score += scoreGained;
+                        textBox1.Text = score.ToString();
                     }
                     else
                     {
@@ -65,8 +71,9 @@ namespace WinForms3
 
             if (solved >= 8)
             {
+                int timeSeconds = startTime.Elapsed.Seconds + startTime.Elapsed.Minutes * 60;
                 //display win
-                MessageBox.Show("You win!", "Congratulations!");
+                MessageBox.Show("You earned " + score + " points in " + timeSeconds + " seconds!", "You win!", MessageBoxButtons.OK);
                 
                 //reset
                 int numPics = 16;
@@ -99,8 +106,25 @@ namespace WinForms3
                     pictures[i].BackColor = Color.CornflowerBlue;
                 }
 
-                //reset count
+                //reset count, timer & score
                 solved = 0;
+                score = 0;
+                startTime.Reset();
+                textBox1.Text = score.ToString();
+                TimeSpan elapsed = startTime.Elapsed;
+                String mins = elapsed.Minutes.ToString();
+                if (mins.Length < 2)
+                {
+                    mins = "0" + mins;
+                }
+                String secs = elapsed.Seconds.ToString();
+                if (secs.Length < 2)
+                {
+                    secs = "0" + secs;
+                }
+                textBox2.Text = mins + ":" + secs;
+                startTime.Start();
+                matchTimer();
             }
 
         }
